@@ -1,0 +1,31 @@
+/* purgecss start ignore */
+@tailwind base;
+
+body {
+    overflow-x: hidden;
+}
+
+html,
+body,
+#__next {
+    height: 100%;
+}
+
+h1 {
+    @apply text-5xl;
+    @apply font-light;
+}
+h2 {
+    @apply text-4xl;
+    @apply font-light;
+}
+h3 {
+    @apply text-lg;
+    @apply font-light;
+}
+
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,400&display=swap');
