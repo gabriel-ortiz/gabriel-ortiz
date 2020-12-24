@@ -6,10 +6,10 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900 mb-10`;
 const DateField = tw.div``;
-const Author  = tw.div`font-bold text-lg sm:text-xl lg:text-2xl text-secondary-500 tracking-wide`;
-const Category = tw.div`font-medium text-primary-700`;
+const Author  = tw.div`font-bold text-lg sm:text-xl lg:text-2xl text-secondary tracking-wide`;
+const Category = tw.div`font-medium text-primary`;
 const About = tw.div`text-center`
-const Tag = tw.div`text-gray-700`
+const Tag = tw.div`text-gray-500`
 
 const ImageRow = tw.div`my-2`
 const Image = tw.img`rounded`

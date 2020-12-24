@@ -24,17 +24,17 @@ const Image = styled.div(props => [
   tw`bg-cover bg-center h-80 lg:h-64 rounded rounded-b-none`
 ]);
 
-const Details = tw.div`p-6 rounded border-2 border-t-0 rounded-t-none border-dashed border-primary-100 flex-1 flex flex-col items-center text-center lg:block lg:text-left`;
+const Details = tw.div`p-6 rounded border-2 border-t-0 rounded-t-none border-dashed border-primary flex flex-col items-center text-center lg:block lg:text-left`;
 const MetaContainer = tw.div`flex items-center`;
 const Meta = styled.div`
-  ${tw`text-secondary-100 font-medium text-sm flex items-center leading-none mr-6 last:mr-0`}
+  ${tw`text-secondary font-medium text-sm flex items-center leading-none mr-6 last:mr-0`}
   svg {
     ${tw`w-4 h-4 mr-1`}
   }
 `;
 
 const Title = tw.h5`mt-4 leading-snug font-bold text-lg`;
-const Description = tw.p`mt-2 text-sm text-secondary-100`;
+const Description = tw.p`mt-2 text-sm text-secondary`;
 const ALink = styled(PrimaryButtonBase).attrs({as: "a"})`
   ${tw`inline-block mt-4 text-sm font-semibold cursor-pointer`}
 `
@@ -78,7 +78,7 @@ const blogPosts = [
 
 export default ({
   subheading = "Blog",
-  heading = <>We Love <span tw="text-primary-500">Writing.</span></>,
+  heading = <>We Love <span tw="text-primary">Writing.</span></>,
   description = "Some amazing blog posts that are written by even more amazing people.",
   readMore = "Read Post",
 	posts = blogPosts

@@ -2,26 +2,26 @@
 @tailwind base;
 
 body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 html,
 body,
 #__next {
-    height: 100%;
+	height: 100vh;
 }
 
 h1 {
-    @apply text-5xl;
-    @apply font-light;
+	@apply text-5xl;
+	@apply font-light;
 }
 h2 {
-    @apply text-4xl;
-    @apply font-light;
+	@apply text-4xl;
+	@apply font-light;
 }
 h3 {
-    @apply text-lg;
-    @apply font-light;
+	@apply text-lg;
+	@apply font-light;
 }
 
 @tailwind components;

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 import useInView from "hooks/use-in-view"
 
-const StyledDiv = tw.div`font-display min-h-screen text-secondary-500 p-8 overflow-hidden`;
+const StyledDiv = tw.div`font-display min-h-screen text-secondary p-8 overflow-hidden`;
 function AnimationReveal({ disabled, children }) {
   if (disabled) {
     return <>{children}</>;
